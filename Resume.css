@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+h1 {
+    margin: 10px;
+    margin-left: 5px;
+}
+
+.Container {
+    max-width: 100%;
+    margin: 0;
+    padding: 10px;
+    background-color: #deeaf0;
+}
+
+.Container p {
+    margin: 5px;
+}
+
+.justified {
+    text-align: justify;
+}
+
+.info h2 {
+    margin: 5px;
+}
+
+.Address h2 {
+    margin: 5px;
+}
+
+.info-cntnr {
+    display: flex;
+    justify-content: space-between;
+}
+
+.summary h2 {
+    margin: 10px;
+    text-decoration: underline;
+}
+
+.summary p {
+    margin: 10px;
+}
+
+.Edu {
+    margin: 10px;
+}
+
+table {
+    width: 100%;
+}
+
+th,
+td {
+    text-align: center;
+    vertical-align: center;
+}
+
+.pro {
+    margin: 10px;
+}
+
+.projects ul {
+    margin: 10px;
+    list-style: disc;
+
+}
+
+.projects h3,
+p {
+    margin: 10px;
+}
+
+.three-columns {
+    columns: 3;
+    column-gap: 20px;
+    margin: 0;
+}
+
+/* Style for langs */
+.lang-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.lang-list li {
+    margin-bottom: 5px;
+}
+
+.lang-name {
+    font-weight: bold;
+}
+
+.lang-bar {
+    width: 100%;
+    background-color: #f0f0f0;
+    height: 20px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.lang-level {
+    width: 60%;
+    /* Adjust the width based on lang level (e.g., 60% for 60%) */
+    height: 100%;
+    background-color: #007bff;
+    /* Change the color as needed */
+    border-radius: 5px;
+}
+
+
+/* lang-specific styling */
+.English {
+    width: 48%;
+    background-color: #007bff;
+}
+
+.Hindi {
+    width: 48%;
+    background-color: #ff5722;
+}
+
+.Telugu {
+    width: 54%;
+    background-color: #f0c267;
+}
+
+
+#same {
+    margin: 5px;
+}
