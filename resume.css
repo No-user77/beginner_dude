@@ -1,39 +1,49 @@
-body, h1, p, ul, li, table, th, td {
-            margin: 0;
-            padding: 0;
-        }
+body,
+h1,
+p,
+ul,
+li,
+table,
+th,
+td {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     margin: 0;
     padding: 0;
-    background-color: #f2f2f2;
+    background-color: #fbf9f9;
 }
+
 @page {
     size: A4;
     margin: 0;
 }
 
-.page{
+.page {
     width: 100%;
     max-width: 21cm;
     margin: 0 auto;
-    padding: 1.5cm;
-    background-color: #deeaf0;
+    padding: 0.5cm;
+
+    background-color: #fafdfefe;
 }
 
 h1 {
-    margin: 10px;
+    margin: 5px;
     margin-left: 5px;
 }
 
 .Container {
     max-width: 100%;
     margin: 0;
-    padding: 10px;
+    padding: 5px;
     background-color: #deeaf0;
 }
 
 .Container p {
-    margin: 5px;
+    margin: 4px;
 }
 
 .justified {
@@ -54,16 +64,16 @@ h1 {
 }
 
 .summary h2 {
-    margin: 10px;
+    margin: 5px;
     text-decoration: underline;
 }
 
 .summary p {
-    margin: 10px;
+    margin: 5px;
 }
 
 .Edu {
-    margin: 10px;
+    margin: 5px;
 }
 
 table {
@@ -77,18 +87,18 @@ td {
 }
 
 .pro {
-    margin: 10px;
+    margin: 5px;
 }
 
 .projects ul {
-    margin: 10px;
+    margin: 5px;
     list-style: disc;
 
 }
 
 .projects h3,
 p {
-    margin: 10px;
+    margin: 4px;
 }
 
 .three-columns {
@@ -105,7 +115,7 @@ p {
 }
 
 .lang-list li {
-    margin-bottom: 5px;
+    margin-bottom: 4px;
 }
 
 .lang-name {
@@ -121,8 +131,8 @@ p {
 }
 
 .lang-level {
-    width: 60%;
-    /* Adjust the width based on lang level (e.g., 60% for 60%) */
+    width: 50%;
+    /* Adjust the width based on lang level (e.g., 50% for 50%) */
     height: 100%;
     background-color: #007bff;
     /* Change the color as needed */
@@ -132,18 +142,18 @@ p {
 
 /* lang-specific styling */
 .English {
-    width: 48%;
+    width: 45%;
     background-color: #007bff;
 }
 
 .Hindi {
-    width: 48%;
+    width: 45%;
     background-color: #ff5722;
 }
 
 .Telugu {
     width: 54%;
-    background-color: #f0c267;
+    background-color: #f0c257;
 }
 
 
